@@ -44,6 +44,8 @@ jobs:
           cp NOTICE.md site/
           cp REFERENCES.md site/
           cp -r docs site/docs
+          cp -r assets site/assets
+          cp -r reports site/reports
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

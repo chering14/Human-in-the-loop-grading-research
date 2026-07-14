@@ -1,0 +1,37 @@
+{
+  "sample": {
+    "records": 20,
+    "objective_records": 10,
+    "subjective_records": 10,
+    "all_synthetic": true
+  },
+  "teacher_reliability": {
+    "subjective_qwk": 0.9846
+  },
+  "model_against_adjudicated": {
+    "objective_accuracy": 0.8,
+    "objective_accuracy_wilson_95": [
+      0.4902,
+      0.9433
+    ],
+    "subjective_mae": 2.3,
+    "subjective_rmse": 3.6469,
+    "subjective_bias": -2.3,
+    "subjective_tolerance_hit_rate": 0.8
+  },
+  "human_review_routing": {
+    "automatic_pass_coverage": 0.3,
+    "automatic_pass_error_rate": 0.0,
+    "error_capture_rate": 1.0,
+    "severe_error_escape_rate": 0.0,
+    "review_burden": 0.7,
+    "post_review_final_accuracy": 1.0
+  },
+  "descriptive_time": {
+    "baseline_minutes": 40.45,
+    "framework_minutes": 16.87,
+    "relative_time_difference": 0.583
+  },
+  "deployment_authorized": false,
+  "authorization_note": "Synthetic data are not valid evidence for deployment."
+}
