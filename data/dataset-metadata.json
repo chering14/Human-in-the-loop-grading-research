@@ -1,0 +1,26 @@
+{
+  "name": "human-in-the-loop grading evaluation sample",
+  "language": "zh-CN",
+  "version": "0.1-demo",
+  "created": "2026-07-14",
+  "records": 20,
+  "source": "synthetic",
+  "contains_personal_information": false,
+  "contains_real_student_work": false,
+  "intended_use": [
+    "schema validation",
+    "metric calculation demonstration",
+    "risk-routing protocol demonstration"
+  ],
+  "prohibited_use": [
+    "product performance claim",
+    "deployment authorization",
+    "student assessment",
+    "commercial procurement evidence"
+  ],
+  "thresholds": {
+    "confidence_threshold": 0.75,
+    "threshold_version": "v0.1-demo",
+    "calibration_status": "illustrative; not calibrated on real data"
+  }
+}
